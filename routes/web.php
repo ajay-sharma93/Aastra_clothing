@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\FrontendController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
@@ -28,4 +29,10 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-require __DIR__.'/auth.php';
+require __DIR__ . '/auth.php';
+
+//******* For Frontend section******** //
+Route::get('/index', [FrontendController::class, 'index'])->name('index');
+Route::get('/men', [FrontendController::class, 'men'])->name('men');
+Route::get('/cosmetic', [FrontendController::class, 'cosmetic'])->name('cosmetic');
+Route::get('/contact', [FrontendController::class, 'contact'])->name('contact');
