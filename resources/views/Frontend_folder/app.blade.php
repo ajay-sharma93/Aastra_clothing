@@ -245,36 +245,41 @@
                         <!-- single slide item -->
                         <li>
                             <div class="seq-model">
-                                <img data-seq src="assets/img/slider/1.jpg" alt="Men slide img" />
+                                <img data-seq src="assets/img/slider/banner-img-1-21970700.jpg" />
                             </div>
                             <div class="seq-title">
                                 <span data-seq>Save Up to 75% Off</span>
                                 <h2 data-seq>Men Collection</h2>
-                                <p data-seq>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, illum.</p>
+                                <p data-seq>
+                                    "Discover timeless sophistication in our men's collection. From tailored suits to
+                                    versatile essentials, elevate your style effortlessly."</p>
                                 <a data-seq href="#" class="aa-shop-now-btn aa-secondary-btn">SHOP NOW</a>
                             </div>
                         </li>
                         <!-- single slide item -->
                         <li>
                             <div class="seq-model">
-                                <img data-seq src="assets/img/slider/2.jpg" alt="Wristwatch slide img" />
+                                <img data-seq src="assets/img/slider/1920x700-Rolex-banner-jon 2.jpg"
+                                    alt="Wristwatch slide img" />
                             </div>
                             <div class="seq-title">
                                 <span data-seq>Save Up to 40% Off</span>
                                 <h2 data-seq>Wristwatch Collection</h2>
-                                <p data-seq>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, illum.</p>
+                                <p data-seq>"Timeless elegance meets modern flair in our watch collection. </p>
                                 <a data-seq href="#" class="aa-shop-now-btn aa-secondary-btn">SHOP NOW</a>
                             </div>
                         </li>
                         <!-- single slide item -->
                         <li>
                             <div class="seq-model">
-                                <img data-seq src="assets/img/slider/3.jpg" alt="Women Jeans slide img" />
+                                <img data-seq src="assets/img/slider/beauty-cosmetics.jpg"
+                                    alt="Women Jeans slide img" />
                             </div>
                             <div class="seq-title">
-                                <span data-seq>Save Up to 75% Off</span>
-                                <h2 data-seq>Jeans Collection</h2>
-                                <p data-seq>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, illum.</p>
+                                <span data-seq>Save Up to 5% Off</span>
+                                <h2 data-seq>Cosmetic Items</h2>
+                                <p data-seq>"Discover beauty, simplified. Explore our essential cosmetics for effortless
+                                    elegance."</p>
                                 <a data-seq href="#" class="aa-shop-now-btn aa-secondary-btn">SHOP NOW</a>
                             </div>
                         </li>
