@@ -36,3 +36,5 @@ Route::get('/index', [FrontendController::class, 'index'])->name('index');
 Route::get('/men', [FrontendController::class, 'men'])->name('men');
 Route::get('/cosmetic', [FrontendController::class, 'cosmetic'])->name('cosmetic');
 Route::get('/contact', [FrontendController::class, 'contact'])->name('contact');
+Route::get('/sunglasses', [FrontendController::class, 'sunglasses'])->name('sunglasses');
+Route::post('/save-contact', [FrontendController::class, 'saveContact']);

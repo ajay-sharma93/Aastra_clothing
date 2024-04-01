@@ -223,7 +223,7 @@
                             <li><a href="{{ route('cosmetic') }}">Cosmetic Items </a>
                             </li>
 
-                            <li><a href="#">Sunglasses</a></li>
+                            <li><a href="{{ route('sunglasses') }}">Sunglasses</a></li>
 
                             <li><a href="#"></a></li>
 
@@ -286,7 +286,7 @@
                         <!-- single slide item -->
                         <li>
                             <div class="seq-model">
-                                <img data-seq src="assets/img/slider/4.jpg" alt="Shoes slide img" />
+                                <img data-seq src="assets/img/slider/shoes.jpg" alt="Shoes slide img" />
                             </div>
                             <div class="seq-title">
                                 <span data-seq>Save Up to 75% Off</span>

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Contact;
 use Illuminate\Http\Request;
 
 class FrontendController extends Controller
@@ -23,5 +24,20 @@ class FrontendController extends Controller
     public function contact()
     {
         return view('Frontend_folder.contact');
+    }
+    public function sunglasses()
+    {
+        return view('Frontend_folder.sunglasses');
+    }
+    public function saveContact(Request $request)
+    {
+        Contact::create([
+            'name' => $request->name,
+            'email' => $request->email,
+            'subject' => $request->subject,
+            'number' => $request->number,
+            'message' => $request->message,
+        ]);
+        return redirect()->back()->with('success', 'You have Successfully entered your message');
     }
 }
