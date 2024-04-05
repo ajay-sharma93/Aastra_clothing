@@ -11,8 +11,8 @@
                                 <!-- start prduct navigation -->
                                 <ul class="nav nav-tabs aa-products-tab">
                                     <li class="active"><a href="#men" data-toggle="tab">Men</a></li>
-                                    <li><a href="#women" data-toggle="tab">Women</a></li>
-                                    <li><a href="#sports" data-toggle="tab">Sports</a></li>
+                                    <li><a href="#cosmetic" data-toggle="tab">Cosmetic Items</a></li>
+                                    <li><a href="#sunglasses" data-toggle="tab">Sunglasses</a></li>
                                     <li><a href="#electronics" data-toggle="tab">Electronics</a></li>
                                 </ul>
                                 <!-- Tab panes -->

@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\BackendController;
 use App\Http\Controllers\FrontendController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
@@ -38,3 +39,10 @@ Route::get('/cosmetic', [FrontendController::class, 'cosmetic'])->name('cosmetic
 Route::get('/contact', [FrontendController::class, 'contact'])->name('contact');
 Route::get('/sunglasses', [FrontendController::class, 'sunglasses'])->name('sunglasses');
 Route::post('/save-contact', [FrontendController::class, 'saveContact']);
+//******* For Frontend section******** //
+
+//******* For admin section******** //
+Route::get('/admin/dashboard', function () {
+    return view('admin.dashboard');
+});
+//******* For admin section******** //
