@@ -34,7 +34,7 @@ require __DIR__ . '/auth.php';
 
 //******* For Frontend section******** //
 Route::get('/index', [FrontendController::class, 'index'])->name('index');
-Route::get('/men', [FrontendController::class, 'men'])->name('men');
+Route::get('/product', [FrontendController::class, 'product'])->name('product');
 Route::get('/cosmetic', [FrontendController::class, 'cosmetic'])->name('cosmetic');
 Route::get('/contact', [FrontendController::class, 'contact'])->name('contact');
 Route::get('/sunglasses', [FrontendController::class, 'sunglasses'])->name('sunglasses');
@@ -42,7 +42,8 @@ Route::post('/save-contact', [FrontendController::class, 'saveContact']);
 //******* For Frontend section******** //
 
 //******* For admin section******** //
-Route::get('/admin/dashboard', function () {
-    return view('admin.dashboard');
-});
+Route::get('/admin/index', [BackendController::class, 'index'])->name('dashboard');
+Route::get('/admin/product', [BackendController::class, 'product'])->name('product');
+Route::post('/admin/saveProduct', [BackendController::class, 'saveProduct']);
+
 //******* For admin section******** //

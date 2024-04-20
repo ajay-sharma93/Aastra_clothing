@@ -12,9 +12,9 @@ class FrontendController extends Controller
         return view('Frontend_folder.index');
     }
 
-    public function men()
+    public function product()
     {
-        return view('Frontend_folder.men');
+        return view('Frontend_folder.product');
     }
 
     public function cosmetic()

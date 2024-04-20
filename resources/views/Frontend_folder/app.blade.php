@@ -217,7 +217,7 @@
                         <!-- Left nav -->
                         <ul class="nav navbar-nav">
                             <li><a href="{{ route('index') }}">Home</a></li>
-                            <li><a href="{{ route('men') }}">Men</a>
+                            <li><a href="{{ route('product') }}">Product</a>
 
                             </li>
                             <li><a href="{{ route('cosmetic') }}">Cosmetic Items </a>
