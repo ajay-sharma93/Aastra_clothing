@@ -217,6 +217,7 @@
                         <!-- Left nav -->
                         <ul class="nav navbar-nav">
                             <li><a href="{{ route('index') }}">Home</a></li>
+
                             <li><a href="{{ route('product') }}">Product</a>
 
                             </li>

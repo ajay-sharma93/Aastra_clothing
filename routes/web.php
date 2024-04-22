@@ -43,7 +43,7 @@ Route::post('/save-contact', [FrontendController::class, 'saveContact']);
 
 //******* For admin section******** //
 Route::get('/admin/index', [BackendController::class, 'index'])->name('dashboard');
-Route::get('/admin/product', [BackendController::class, 'product'])->name('product');
+Route::get('/admin/product', [BackendController::class, 'product'])->name('admin.product');
 Route::post('/admin/saveProduct', [BackendController::class, 'saveProduct']);
 
 //******* For admin section******** //

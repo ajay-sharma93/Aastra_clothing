@@ -32,7 +32,7 @@
                             </div>
                             <!-- /.card-header -->
                             <!-- form start -->
-                            <form action="saveProduct" method="POST">
+                            <form action="saveProduct" method="POST" enctype="multipart/form-data">
                                 @csrf
                                 <div class="card-body">
                                     <div class="card-body">

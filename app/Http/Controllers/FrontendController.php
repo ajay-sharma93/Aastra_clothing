@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Contact;
+use App\Models\Product;
 use Illuminate\Http\Request;
 
 class FrontendController extends Controller
@@ -14,7 +15,8 @@ class FrontendController extends Controller
 
     public function product()
     {
-        return view('Frontend_folder.product');
+        $product = Product::all();
+        return view('Frontend_folder.product', compact('product'));
     }
 
     public function cosmetic()
