@@ -35,6 +35,7 @@ require __DIR__ . '/auth.php';
 //******* For Frontend section******** //
 Route::get('/index', [FrontendController::class, 'index'])->name('index');
 Route::get('/product', [FrontendController::class, 'product'])->name('product');
+// Route::get('/product/{product}/detail', [FrontendController::class, 'productDetails'])->name('product.details');
 Route::get('/cosmetic', [FrontendController::class, 'cosmetic'])->name('cosmetic');
 Route::get('/contact', [FrontendController::class, 'contact'])->name('contact');
 Route::get('/sunglasses', [FrontendController::class, 'sunglasses'])->name('sunglasses');

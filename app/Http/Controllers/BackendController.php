@@ -21,18 +21,15 @@ class BackendController extends Controller
 
 
     public function saveProduct(Request $request)
-
-
     {
-
         $image = Storage::disk('local')->put('public/product', $request->image1);
         $imageLocation = Storage::url($image);
-        Product::create([
+        return $product = Product::create([
 
             'ProductName' => $request->ProductName,
             'price' => $request->price,
             'Description' => $request->Description,
-            'Image' => $imageLocation,
+            'Image' => 'http://localhost:8000' . $imageLocation,
 
         ]);
         return redirect()->back()->with('success', 'You have Successfully entered your product');

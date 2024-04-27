@@ -146,25 +146,13 @@
 
                         </li>
                         <li class="nav-item menu-open">
-                            <a href="{{ route('product') }}" class="nav-link inactive">
+                            <a href="{{ route('admin.product') }}" class="nav-link inactive">
                                 <i class="fa-solid fa-bag-shopping"></i>
                                 <p>
                                     Product
-
                                 </p>
                             </a>
-
                         </li>
-
-
-
-
-
-
-
-
-
-
                     </ul>
                 </nav>
                 <!-- /.sidebar-menu -->

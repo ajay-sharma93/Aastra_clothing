@@ -38,15 +38,14 @@
 
 
                         <div class="aa-product-catg-body">
-                            <ul class="aa-product-catg">
-                                <!-- start single product item -->
-                                ◘@foreach ($product as $products)
+                            @foreach ($product as $products)
+                                <ul class="aa-product-catg">
+                                    <!-- start single product item -->
                                     <li>
 
 
                                         <figure>
-                                            <a class="aa-product-img" href="#"><img src="{{ $products->image }}"
-                                                    alt="polo shirt img"></a>
+                                            <a class="aa-product-img" href="#"><img src="{{ $products->Image }}"></a>
                                             <a class="aa-add-card-btn"href="#"><span class="fa fa-shopping-cart"></span>Add
                                                 To
                                                 Cart</a>
@@ -67,11 +66,11 @@
                                                 data-toggle="modal" data-target="#quick-view-modal"><span
                                                     class="fa fa-search"></span></a>
                                         </div>
-                                        <!-- product badge -->
-                                        <span class="aa-badge aa-sale" href="#">SALE!</span>
+
+
                                     </li>
-                                @endforeach
-                            </ul>
+                                </ul>
+                            @endforeach
                             <!-- quick view modal -->
                             <div class="modal fade" id="quick-view-modal" tabindex="-1" role="dialog"
                                 aria-labelledby="myModalLabel" aria-hidden="true">
@@ -94,27 +93,7 @@
                                                                     </a>
                                                                 </div>
                                                             </div>
-                                                            <div class="simpleLens-thumbnails-container">
-                                                                <a href="#" class="simpleLens-thumbnail-wrapper"
-                                                                    data-lens-image="img/view-slider/large/polo-shirt-1.png"
-                                                                    data-big-image="img/view-slider/medium/polo-shirt-1.png">
-                                                                    <img
-                                                                        src="assets/img/view-slider/thumbnail/polo-shirt-1.png">
-                                                                </a>
-                                                                <a href="#" class="simpleLens-thumbnail-wrapper"
-                                                                    data-lens-image="img/view-slider/large/polo-shirt-3.png"
-                                                                    data-big-image="img/view-slider/medium/polo-shirt-3.png">
-                                                                    <img
-                                                                        src="assets/img/view-slider/thumbnail/polo-shirt-3.png">
-                                                                </a>
 
-                                                                <a href="#" class="simpleLens-thumbnail-wrapper"
-                                                                    data-lens-image="img/view-slider/large/polo-shirt-4.png"
-                                                                    data-big-image="img/view-slider/medium/polo-shirt-4.png">
-                                                                    <img
-                                                                        src="assets/img/view-slider/thumbnail/polo-shirt-4.png">
-                                                                </a>
-                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
