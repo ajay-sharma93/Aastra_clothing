@@ -4752,8 +4752,8 @@ img {
         li
         figure
         .aa-add-card-btn {
-        bottom: 20%;
-        left: 46%;
+        bottom: -46%;
+        left: -46%;
     }
 
     #aa-product-category

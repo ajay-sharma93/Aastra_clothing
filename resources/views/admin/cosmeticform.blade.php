@@ -44,18 +44,18 @@
                                             <div class="input-group-prepend">
                                                 <span class="input-group-text">@</span>
                                             </div>
-                                            <input type="text" class="form-control" placeholder="name of the product"
+                                            <input type="text" class="form-control" placeholder="Username"
                                                 name="ProductName">
-                                        </div>
-                                        <label for="#">Price of the Product</label>
 
+                                        </div>
+
+                                        <label for="#">Price of the Product</label>
                                         <div class="input-group mb-3">
                                             <input type="text" class="form-control" name="price">
                                             <div class="input-group-append">
                                                 <span class="input-group-text">.00</span>
                                             </div>
                                         </div>
-
 
                                         <div class="form-group">
                                             <label for="exampleInputFile">Image of the Product</label>
@@ -66,40 +66,25 @@
                                                     <label class="custom-file-label" for="exampleInputFile">Choose
                                                         file</label>
                                                 </div>
+
                                                 <div class="input-group-append">
                                                     <span class="input-group-text">Upload</span>
                                                 </div>
                                             </div>
                                         </div>
-
-                                        <label for="#">Feature Product</label>
-                                        <div class="input-group mb-3">
-
-                                            <input type="number" class="form-control" placeholder="use only 1/0 value"
-                                                name="FeatureProduct" min="0" max="1">
-                                            <div class="input-group-append">
-                                                <span class="input-group-text">1/0</span>
-                                            </div>
-                                        </div>
-
                                         <div class="col-sm-6">
                                             <!-- textarea -->
-                                            <div class="form-data">
+                                            <div class="form-group">
                                                 <label>Description of the Product</label>
                                                 <textarea class="form-control" rows="3" placeholder="Enter ..." name="Description"></textarea>
                                             </div>
                                         </div>
-                                        <br>
 
-                                        <div class="form-control">
-                                            <label for="Category">Choose: &nbsp;</label>
 
-                                            <select id="items" name="Choose">
-                                                <option value="Men">Men</option>
-                                                <option value="CosmeticItems">CosmeticItems</option>
-                                                <option value="Sunglasses">Sunglasses</option>
-                                                <option value="Electronics">Electronics</option>
-                                            </select>
+
+                                        <div class="form-check">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
                                         </div>
 
 

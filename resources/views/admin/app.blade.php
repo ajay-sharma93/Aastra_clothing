@@ -112,7 +112,7 @@
                         <img src="dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image" />
                     </div>
                     <div class="info">
-                        <a href="#" class="d-block">Alexander Pierce</a>
+                        <a href="#" class="d-block">Aastra Beauty Product</a>
                     </div>
                 </div>
 
@@ -150,6 +150,15 @@
                                 <i class="fa-solid fa-bag-shopping"></i>
                                 <p>
                                     Product
+                                </p>
+                            </a>
+                        </li>
+
+                        <li class="nav-item menu-open">
+                            <a href="#" class="nav-link inactive">
+                                <i class="fa-solid fa-bag-shopping"></i>
+                                <p>
+                                    list of the items
                                 </p>
                             </a>
                         </li>

@@ -94,6 +94,8 @@
                                         </a>
                                         <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
                                             <li><a href="#"><i class="fa fa-euro"></i>EURO</a></li>
+                                            <li><a href="#"><i class="fa fa-rupee"></i></i>NEP
+                                                </a></li>
                                             <li><a href="#"><i class="fa fa-jpy"></i>YEN</a></li>
                                         </ul>
                                     </div>
@@ -101,7 +103,7 @@
                                 <!-- / currency -->
                                 <!-- start cellphone -->
                                 <div class="cellphone hidden-xs">
-                                    <p><span class="fa fa-phone"></span>00-62-658-658</p>
+                                    <p><span class="fa fa-phone"></span>+977 9769377416</p>
                                 </div>
                                 <!-- / cellphone -->
                             </div>
@@ -109,10 +111,11 @@
                             <div class="aa-header-top-right">
                                 <ul class="aa-head-top-nav-right">
                                     <li><a href="account.html">My Account</a></li>
-                                    <li class="hidden-xs"><a href="wishlist.html">Wishlist</a></li>
-                                    <li class="hidden-xs"><a href="cart.html">My Cart</a></li>
+                                    <li class="hidden-xs"><a href="{{ route('wishlist') }}">Wishlist</a></li>
+                                    <li class="hidden-xs"><a href="{{ route('cart') }}">My Cart</a></li>
                                     <li class="hidden-xs"><a href="checkout.html">Checkout</a></li>
-                                    <li><a href="" data-toggle="modal" data-target="#login-modal">Login</a></li>
+                                    <li><a href="" data-toggle="modal" data-target="#login-modal">Login</a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>

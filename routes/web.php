@@ -35,8 +35,10 @@ require __DIR__ . '/auth.php';
 //******* For Frontend section******** //
 Route::get('/index', [FrontendController::class, 'index'])->name('index');
 Route::get('/product', [FrontendController::class, 'product'])->name('product');
-// Route::get('/product/{product}/detail', [FrontendController::class, 'productDetails'])->name('product.details');
+Route::get('/productDetail/{product}', [FrontendController::class, 'productDetail'])->name('productDetail');
 Route::get('/cosmetic', [FrontendController::class, 'cosmetic'])->name('cosmetic');
+Route::get('/wishlist', [FrontendController::class, 'wishlist'])->name('wishlist');
+Route::get('/cart', [FrontendController::class, 'cart'])->name('cart');
 Route::get('/contact', [FrontendController::class, 'contact'])->name('contact');
 Route::get('/sunglasses', [FrontendController::class, 'sunglasses'])->name('sunglasses');
 Route::post('/save-contact', [FrontendController::class, 'saveContact']);
@@ -46,5 +48,5 @@ Route::post('/save-contact', [FrontendController::class, 'saveContact']);
 Route::get('/admin/index', [BackendController::class, 'index'])->name('dashboard');
 Route::get('/admin/product', [BackendController::class, 'product'])->name('admin.product');
 Route::post('/admin/saveProduct', [BackendController::class, 'saveProduct']);
-
+Route::get('/admin/cosmeticform', [BackendController::class, 'cosmeticform']);
 //******* For admin section******** //
